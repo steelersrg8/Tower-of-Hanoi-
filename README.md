@@ -23,20 +23,17 @@ The **Tower of Hanoi** puzzle involves moving disks from one rod to another whil
 ### Example Visualization:
 **Initial State with 3 Disks**:
 ```
-      ===     
-     =====    
-    =======   
-      |         |         |     
-       A         B         C     
+=	 	 	
+==	 	 	
+===	 	 	
+A	B	C    
 ```
 
 **After Moving a Disk (A → C)**:
 ```
-      ===     
-     =====    
-      |         |         =======
-      |         |         |     
-       A         B         C     
+==	 	 	
+===	 	=	
+A	B	C 
 ```
 
 ---
@@ -55,7 +52,7 @@ The **Tower of Hanoi** puzzle involves moving disks from one rod to another whil
    ```
 2. Compile the program:
    ```bash
-   g++ -o hanoi tower_of_hanoi.cpp
+   g++ -o hanoi main.cpp
    ```
 3. Run the program:
    ```bash
